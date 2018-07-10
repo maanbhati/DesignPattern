@@ -1,19 +1,19 @@
 package com.strategypattern.sample;
 
 public class Item {
-	private String upcCode;
-	private int price;
+	private String mUpcCode;
+	private int mPrice;
 
 	public Item(String upc, int cost) {
-		this.upcCode = upc;
-		this.price = cost;
+		this.mUpcCode = upc;
+		this.mPrice = cost;
 	}
 
 	public String getUpcCode() {
-		return upcCode;
+		return mUpcCode;
 	}
 
 	public int getPrice() {
-		return price;
+		return mPrice;
 	}
 }
